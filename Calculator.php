@@ -17,4 +17,9 @@ class Calculator
         return $a / $b;
     }
 
+    public function espar($a): float
+    {
+        return $a % 2;
+    }
+
 }
