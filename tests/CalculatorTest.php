@@ -36,6 +36,6 @@ class CalculatorTest extends TestCase
     public function testesPar(): void
     {
 	$result = $this->calculator->es_par(2);
-	$this->assertEquals(true, $result); 
+	$this->assertEquals(0, $result); 
     } 
 }
