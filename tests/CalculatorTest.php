@@ -33,5 +33,9 @@ class CalculatorTest extends TestCase
         $result = $this->calculator->division(10, 2);
         $this->assertEquals(5, $result);
     }
- 
+    public function testesPar(): void
+    {
+	$result = $this->calculator->es_par(2);
+	$this->assertEquals(true, $result); 
+    } 
 }
